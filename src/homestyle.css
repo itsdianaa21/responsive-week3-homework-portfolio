@@ -100,25 +100,3 @@ h3 {
   color: black;
   border: 1px solid black;
 }
-
-@media (max-width: 576px) {
-  h1 {
-    font-size: 48px;
-    line-height: 2;
-  }
-
-  h2 {
-    font-size: 28px;
-    text-align: center;
-  }
-
-  p {
-    text-align: center;
-  }
-
-  .project-link {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-  }
-}
