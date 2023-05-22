@@ -1,0 +1,87 @@
+:root {
+  --text-decoration: none;
+  --text-color: #407088;
+}
+body {
+  background-color: white;
+}
+h1 {
+  display: block;
+  text-align: center;
+  font-size: 96px;
+  color: var(--text-color);
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  color: var(--text-color);
+  margin: 0;
+}
+
+#contact {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.homepage-link {
+  text-decoration: var(--text-decoration);
+  background-color: black;
+  font-style: bolder;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 5px;
+  color: #ffcbcb;
+}
+
+.homepage-link:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ffcbcb;
+  color: black;
+}
+
+.email {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: var(--text-decoration);
+  color: white;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.email:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-paragraphs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  display: flex;
+  border: 1px solid #ffb5b5;
+  background-color: #407088;
+  border-radius: 5px;
+  padding: 20px;
+  justify-content: center;
+  font-weight: 20px;
+  max-width: 500px;
+  color: #ffb5b5;
+}
